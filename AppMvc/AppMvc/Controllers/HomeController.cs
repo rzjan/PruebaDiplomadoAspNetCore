@@ -29,6 +29,10 @@ namespace AppMvc.Controllers
             return View();
         }
 
+        public IActionResult MiPagina()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
